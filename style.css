@@ -3,4 +3,27 @@ body{
     color: rgb(228, 96, 228);
     font-family: cursive;
     display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+button{
+   background: rgb(230, 103, 166);
+   color:aquamarine;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.passo{
+    display: none;
+}
+.passo.ativo{
+    display: block;
+}
+main{
+    text-align: center;
+    max-width: 90%;
+}
+img{
+    max-width: 90%;  
 }
